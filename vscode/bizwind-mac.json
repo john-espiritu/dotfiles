@@ -1,0 +1,40 @@
+{
+    "editor.fontSize": 11,
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorStyle": "underline",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
+    "window.title": "${dirty}${activeEditorShort}${separator}${folderName}",
+    "explorer.openEditors.visible": 0,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.cursorBlinking": true,
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": true,
+    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "git.confirmSync": true,
+    "terminal.integrated.scrollback": 50000,
+    "window.zoomLevel": -2,
+    "editor.autoClosingBrackets": true,
+    "terminal.integrated.rendererType": "canvas",
+    "workbench.statusBar.feedback.visible": true,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/vendor": true
+    },
+    "php.executablePath": "/usr/bin/php",
+    "workbench.colorTheme": "Atom One Dark",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Noto Mono for Powerline",
+    "[go]": {
+      "editor.insertSpaces": true
+    },
+    "breadcrumbs.enabled": true,
+    "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/johnespiritu/.vscode/extensions/gabrielbb.vscode-lombok-0.9.5/server/lombok.jar\" -Xbootclasspath/a:\"/Users/johnespiritu/.vscode/extensions/gabrielbb.vscode-lombok-0.9.5/server/lombok.jar\"",
+    "java.trace.server": "verbose"
+  }
